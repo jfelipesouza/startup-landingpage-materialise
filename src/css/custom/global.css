@@ -1,13 +1,40 @@
-.bg-secundary {
-  background-color: #457b9d;
+.color-text {
+  color: #222;
 }
 
-body {
-  overflow-x: hidden;
+.bg-secundary {
+  background-color: #457b9d;
 }
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  overflow-x: hidden;
+  background-color: #f1eded;
+}
+
+/* width */
+body::-webkit-scrollbar {
+  width: 0.5rem;
+}
+
+/* Track */
+body::-webkit-scrollbar-track {
+  background: #f1eded;
+}
+
+/* Handle */
+body::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 2rem;
+}
+
+/* Handle on hover */
+body::-webkit-scrollbar-thumb:hover {
+  background: #555;
 }

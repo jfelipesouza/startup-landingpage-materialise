@@ -1,3 +1,61 @@
 header {
   background-color: #17263a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 999;
+}
+
+header nav {
+  padding: 0 2rem;
+}
+
+header ul li a {
+  font-size: 1rem;
+}
+
+.btn {
+  width: 200px;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+
+.btn:hover {
+  background-color: #17263a;
+}
+
+.btn:active {
+  transform: translateY(-2px);
+}
+.content {
+  margin-top: 10rem;
+}
+
+#shoes {
+  position: relative;
+  margin-top: 5rem;
+}
+
+#shoes::before {
+  content: '';
+  position: absolute;
+  top: -5.5rem;
+  right: 0;
+  width: 800px;
+  height: 800px;
+  clip-path: polygon(100% 0, 4% 56%, 100% 100%);
+  background-color: #f1faee;
+  z-index: -99;
+}
+
+a {
+  border-bottom: 2px solid transparent;
+}
+a:hover {
+  border-bottom: 2px solid #f1faee;
+}
+
+.image {
+  transform-origin: top;
 }
