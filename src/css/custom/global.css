@@ -1,0 +1,13 @@
+.bg-secundary {
+  background-color: #457b9d;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
