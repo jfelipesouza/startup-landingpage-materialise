@@ -19,10 +19,11 @@ header ul li a {
   width: 200px;
   border-radius: 0.5rem;
   margin-top: 2rem;
+  background-color: #457b9d !important;
 }
 
 .btn:hover {
-  background-color: #17263a;
+  background-color: #17263a !important;
 }
 
 .btn:active {
@@ -58,4 +59,5 @@ a:hover {
 
 .image {
   transform-origin: top;
+  transform: translateY(2rem) translateX(1rem);
 }
